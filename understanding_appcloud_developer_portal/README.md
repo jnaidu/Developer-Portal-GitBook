@@ -9,3 +9,5 @@ Platform Administration (e.g. Developer Portal)
 Customer Applications (primarily portal applications at this time)
 
 The following diagram illustrates how different components of the Covisint Platform are tied together.
+
+1. 
