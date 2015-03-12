@@ -12,3 +12,5 @@ The following diagram illustrates how different components of the Covisint Platf
 
 1. Covisint Exchange Operator will send an invite to a customer who would like to access the Platform.
 2. Upon receiving the invitation, the customer will register with our Covisint Identity Service which manages all of the user accounts and their access.
+3. The registration request submitted by the Customer will then be reviewed and approved by the Covisint Exchange Operator.
+4. 
