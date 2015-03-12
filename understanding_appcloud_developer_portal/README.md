@@ -22,9 +22,8 @@ This application is responsible for the following items:
         
 Typically, the workflow is as follows:
 1. Covisint Exchange Operator will send an invite to a company that would like to access the Platform.
-2. Upon receiving the invitation, the company will register with our Covisint Identity Service which manages all of the user accounts and their access.
-3. The registration request submitted by the Customer will then be reviewed and approved by the Covisint Exchange Operator.
-4. Covisint Exchange Operator will grant desired packages to the company.
+2. Upon receiving the invitation, the company will register with our Covisint Identity Service which manages all of the user accounts and their access. The registration request submitted by the Customer will then be reviewed and approved by the Covisint Exchange Operator.
+3. Covisint Exchange Operator will grant desired packages to the company.
 
 ## Developer Portal
 
