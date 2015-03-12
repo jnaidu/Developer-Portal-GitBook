@@ -20,10 +20,12 @@ The following diagram illustrates how different components of the Covisint Platf
         - Developer Portal Solution Center controls access to the Developer Portal Solution Center. 
         - Connect Package controls access to our Connect application.
         
-* Typically, the workflow is as follows:
+Typically, the workflow is as follows:
     1. Covisint Exchange Operator will send an invite to a company that would like to access the Platform.
     2. Upon receiving the invitation, the company will register with our Covisint Identity Service which manages all of the user accounts and their access. The registration request submitted by the Customer will then be reviewed and approved by the Covisint Exchange Operator.
     3. Covisint Exchange Operator will grant desired packages to the company.
 
 **Developer Portal**
+    4. Upon receiving the grants for the Developer Portal Package and/or Connect package, the company will be able to access the Developer Portal application and/or Connect.
+    5. To access the solution center area within the Developer Portal, the company admin needs to have grants to the Developer Portal Solution Center package.
 
