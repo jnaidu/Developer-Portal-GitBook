@@ -11,7 +11,7 @@ Customer Applications (primarily portal applications at this time)
 The following diagram illustrates how different components of the Covisint Platform are tied together.
 ![](platform_context.png)
 
-**Covisint Identity Service** is responsible for the following items:
+**Covisint Identity Service** is responsible for the following functions:
     * Company registration
     * User registration
     * Registration Approval
