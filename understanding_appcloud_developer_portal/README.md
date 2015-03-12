@@ -25,5 +25,5 @@ The following diagram illustrates how different components of the Covisint Platf
     2. Upon receiving the invitation, the company will register with our Covisint Identity Service which manages all of the user accounts and their access. The registration request submitted by the Customer will then be reviewed and approved by the Covisint Exchange Operator.
     3. Covisint Exchange Operator will grant desired packages to the company.
 
-Developer Portal
+**Developer Portal**
 
