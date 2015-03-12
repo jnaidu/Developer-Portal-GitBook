@@ -18,6 +18,7 @@ This application is responsible for the following items:
         - Developer Portal Package controls access to our Developer Portal.
         - Developer Portal Solution Center controls access to the Developer Portal Solution Center. 
         - Connect Package controls access to our Connect application.
+        
 Typically, the workflow is as follows:
 1. Covisint Exchange Operator will send an invite to a customer who would like to access the Platform.
 2. Upon receiving the invitation, the customer will register with our Covisint Identity Service which manages all of the user accounts and their access.
