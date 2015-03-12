@@ -8,4 +8,4 @@ Platform Application Services (e.g. API Gateway, databases and consolidated logg
 Platform Administration (e.g. Developer Portal)
 Customer Applications (primarily portal applications at this time)
 
-The following diagram illustrates how different components of the Covisint Platform 
+The following diagram illustrates how different components of the Covisint Platform are tied together.
