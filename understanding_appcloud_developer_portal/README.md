@@ -13,6 +13,7 @@ The following diagram illustrates how different components of the Covisint Platf
 ## Covisint Identity Service
 This application is responsible for the following items:
     * Company registration
+    * User registration
     * Registration Approval
     * Controls access to the applications - Developer Portal, Developer Portal Solution Center, and Connect. This is done via the service packages.
         - Developer Portal Package controls access to our Developer Portal.
