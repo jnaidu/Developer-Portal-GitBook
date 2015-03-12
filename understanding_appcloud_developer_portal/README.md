@@ -10,4 +10,5 @@ Customer Applications (primarily portal applications at this time)
 
 The following diagram illustrates how different components of the Covisint Platform are tied together.
 
-1. 
+1. Covisint Exchange Operator will send an invite to a customer who would like to access the Platform.
+2. 
