@@ -12,7 +12,7 @@ The following diagram illustrates how different components of the Covisint Platf
 
 ## Covisint Identity Service
 This application is responsible for the following items:
-    * Customer registration
+    * Company registration
     * Registration Approval
     * Controls access to the applications - Developer Portal, Developer Portal Solution Center, and Connect. This is done via the service packages.
         - Developer Portal Package controls access to our Developer Portal.
@@ -23,4 +23,4 @@ Typically, the workflow is as follows:
 1. Covisint Exchange Operator will send an invite to a customer who would like to access the Platform.
 2. Upon receiving the invitation, the customer will register with our Covisint Identity Service which manages all of the user accounts and their access.
 3. The registration request submitted by the Customer will then be reviewed and approved by the Covisint Exchange Operator.
-4. 
+4. Covisint Exchange Operator will grant desired packages to 
