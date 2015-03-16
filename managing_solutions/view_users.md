@@ -13,5 +13,5 @@ Any of the roles below:
 ## Steps:
 1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
-3. Click the **Users** tab
+3. Click the **Users** tab. A list of user accounts that are part of your solution will be displayed.
 
