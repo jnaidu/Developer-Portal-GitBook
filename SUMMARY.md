@@ -19,5 +19,7 @@
    * [Edit Instance](managing_instances/edit_instance.md)
    * [Manage Applications](managing_instances/manage_applications.md)
    * [Manage Vanity URLs](managing_instances/manage_vanity_urls.md)
+   * [Deploy Release](managing_instances/deploy_release.md)
+       * [Hot Deploy a portal WAR](managing_instances/hot_deploy_a_portal_war.md)
 * [Managing Roles](managing_roles/README.md)
 
