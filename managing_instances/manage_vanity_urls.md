@@ -7,4 +7,4 @@ some text
 2. Select your solution by clicking on the solution name.
 3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
 4. Select an instance by clicking on the instance name to retrieve an instance.
-5. Under the **Vanity URLs**, click **Update URLs**. You'll not be able to edit the Parent Domain. Provide a name for each of the subdomains, and click **Save** and **Yes** to save the subdomain URLs.
+5. Under the **Vanity URLs**, click **Update URLs**. You'll not be able to edit the Parent Domain. Update the name for any of the subdomains, and click **Save**, enter the reason for deleting, and click **Yes** to save the subdomain URLs.

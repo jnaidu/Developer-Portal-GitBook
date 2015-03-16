@@ -16,6 +16,7 @@
    * [View Users](managing_solutions/view_users.md)
 * [Managing Instances](managing_instances/README.md)
    * [View Instances](managing_instances/view_instances.md)
+   * [Edit Instance](managing_instances/edit_instance.md)
    * [Manage Applications](managing_instances/manage_applications.md)
    * [Manage Vanity URLs](managing_instances/manage_vanity_urls.md)
 * [Managing Roles](managing_roles/README.md)
