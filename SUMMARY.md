@@ -15,5 +15,6 @@
    * [Managing Releases](managing_solutions/managing_releases.md)
    * [View Users](managing_solutions/view_users.md)
 * [Managing Instances](managing_instances/README.md)
+   * [View Instances](managing_instances/view_instances.md)
 * [Managing Roles](managing_roles/README.md)
 
