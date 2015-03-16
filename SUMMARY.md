@@ -25,4 +25,5 @@
        * [Restart Node](managing_instances/restart_node.md)
    * [View Users](managing_instances/view_users.md)
 * [Managing Roles](managing_roles/README.md)
+   * [View Granted Roles](managing_roles/view_granted_roles.md)
 
