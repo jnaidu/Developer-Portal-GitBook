@@ -1,5 +1,5 @@
-# Hot Deploy a portal WAR file to an instance
-some text
+# Hot Deploy a portal WAR
+Hot Deploy a portal WAR file to an instance
 
 ## Who can perform this function?
 * Solution Center Administrator

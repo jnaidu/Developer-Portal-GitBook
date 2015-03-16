@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Managing Roles | Developer Portal Overview</title>
+        <title>Create Instance | Developer Portal Overview</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,8 +18,10 @@
     
     
     
+    <link rel="next" href="../managing_solutions/README.html" />
     
-    <link rel="prev" href="../managing_instances/restart_node.html" />
+    
+    <link rel="prev" href="../creating_solutions/create_a_solution.html" />
     
 
         
@@ -31,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="4" data-basepath=".." data-revision="1426533947889">
+    <div class="book"  data-level="1.2" data-basepath=".." data-revision="1426533947889">
     
 
 <div class="book-summary">
@@ -166,7 +168,7 @@
         </li>
     
         
-        <li class="chapter " data-level="1.2" data-path="creating_solutions/create_an_instance.html">
+        <li class="chapter active" data-level="1.2" data-path="creating_solutions/create_an_instance.html">
             
                 
                     <a href="../creating_solutions/create_an_instance.html">
@@ -429,7 +431,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="4" data-path="managing_roles/README.html">
+        <li class="chapter " data-level="4" data-path="managing_roles/README.html">
             
                 
                     <a href="../managing_roles/README.html">
@@ -533,9 +535,37 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_288">
+                    <section class="normal" id="section-gitbook_275">
                     
-                        <h1 id="managing-roles">Managing Roles</h1>
+                        <h1 id="create-an-instance">Create an Instance</h1>
+<p>You&#39;ll be able to create multiple instances for a solution.</p>
+<h2 id="who-can-perform-this-function">Who can perform this function?</h2>
+<ul>
+<li>Solution Center Administrator</li>
+<li>Solution Center Company Administrator</li>
+<li>Solution Center Solution Administrator</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>On the left panel, click <strong>Solutions Center</strong>. A list of all the solutions that have access to the solution center will be displayed.</li>
+<li>Select your solution by clicking on the solution name.</li>
+<li>Click the <strong>Instances</strong> tab. A list of all the instances for your solution will be displayed if you have added any instances before.</li>
+<li>Click <strong>Add Instance</strong>.</li>
+<li>Provide a friendly instance name in the field <strong>Instance Name</strong>.</li>
+<li>Provide an instance description in the field <strong>Instance Description</strong>.</li>
+<li>Pick an instance type from the available configuration options. You have the ability to create multiple development and pre-production instances, however, you can only create one production instance.</li>
+<li>Provide an instance alias name in the field <strong>Alias</strong>.</li>
+<li>You can either create a new realm or choose from existing realms. If you choose an existing realm, the instance portal, identity APIs, ID Provision, and ID Broker will be configured to run against your selected realm.</li>
+<li>Enter a password for the exchange operator role for your new instance. This role will be responsible for managing company level membership for the platform. The primary function of the role is to allow the operators to invite new companies to join the platform, and to grant other types of roles, such as the CIS Service Administrator.</li>
+<li>Click the <strong>Add Instance</strong> button.</li>
+<li>The instance creation does the following background work to set up the instance:<ol>
+<li>Create Realm</li>
+<li>Create Portal</li>
+</ol>
+</li>
+<li>Once your instance has been successfully provisioned, note down the instance details for your reference.The admin login Id is always “SOLUTION ALIAS-INSTANCE ALIAS_ADMIN”. This is the SEED ACCOUNT for this solution instance.</li>
+<li>Click the <em>*View Instance Settings</em> button to view instance details.</li>
+</ol>
 
                     
                     </section>
@@ -546,8 +576,10 @@
         </div>
 
         
-        <a href="../managing_instances/restart_node.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Restart Node"><i class="fa fa-angle-left"></i></a>
+        <a href="../creating_solutions/create_a_solution.html" class="navigation navigation-prev " aria-label="Previous page: Create Solution"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="../managing_solutions/README.html" class="navigation navigation-next " aria-label="Next page: Managing Solutions"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
