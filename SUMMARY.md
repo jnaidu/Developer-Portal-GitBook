@@ -13,5 +13,6 @@
    * [Update Solution](managing_solutions/update_solution.md)
    * [Delete Solution](managing_solutions/delete_solution.md)
    * [Managing Releases](managing_solutions/managing_releases.md)
+   * [View Users](managing_solutions/view_users.md)
 * [Managing Roles](managing_roles/README.md)
 
