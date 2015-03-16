@@ -9,5 +9,5 @@ Any of the roles below:
 ## Steps:
 1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
-3. Click **Edit Solution** to update a solution.
+3. Click **Edit Solution** to update a solution. You'll only be able to edit the solution name and the description.
 
