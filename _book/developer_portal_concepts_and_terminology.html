@@ -4,9 +4,9 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Developer Portal Overview | Developer Portal Overview</title>
+        <title>Developer Portal Concepts and Terminology | Developer Portal Overview</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Developer Portal is a single location for everything related to developing applications on the Covisint Cloud Platform.  Its primary functions are divided between the Solution Center, which provides administrative control of the platform, and the Reference Center, which provides reference material for developing on the platform.  The Developer Portal requires an identity realm for managing company and user accounts, so a special administrative realm called the Platform Identity Realm has been created for its use.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -18,8 +18,10 @@
     
     
     
-    <link rel="next" href="./developer_portal_architecture.html" />
+    <link rel="next" href="./developer_portal_solution_center.html" />
     
+    
+    <link rel="prev" href="./developer_portal_architecture.html" />
     
 
         
@@ -31,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="0" data-basepath="." data-revision="1426514853539">
+    <div class="book"  data-level="0.2" data-basepath="." data-revision="1426514853539">
     
 
 <div class="book-summary">
@@ -49,7 +51,7 @@
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -80,7 +82,7 @@
         </li>
     
         
-        <li class="chapter " data-level="0.2" data-path="developer_portal_concepts_and_terminology.html">
+        <li class="chapter active" data-level="0.2" data-path="developer_portal_concepts_and_terminology.html">
             
                 
                     <a href="./developer_portal_concepts_and_terminology.html">
@@ -253,10 +255,21 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_127">
+                    <section class="normal" id="section-gitbook_129">
                     
-                        <h1 id="developer-portal-overview">Developer Portal Overview</h1>
-<p>Developer Portal is a single location for everything related to developing applications on the Covisint Cloud Platform.  Its primary functions are divided between the Solution Center, which provides administrative control of the platform, and the Reference Center, which provides reference material for developing on the platform.  The Developer Portal requires an identity realm for managing company and user accounts, so a special administrative realm called the Platform Identity Realm has been created for its use.</p>
+                        <h1 id="developer-portal-concepts-and-terminology">Developer Portal Concepts and Terminology</h1>
+<h2 id="company">Company</h2>
+<p>A company is either a partner or a customer that is using the Developer Portal Solution Center to administer their solutions on the platform.  A company is represented by a top-level organization in the Platform Identity Realm.  Companies must be invited to join the platform, and during registration, their top-level organizations and initial user account are created.</p>
+<h2 id="solution">Solution</h2>
+<p>Solutions are a way of logically grouping related development and administrative efforts together under a single concept.  A solution is always associated with a contract, which defines the scope of platform resources that will be made available to it.  Once a company has created a solution, they can begin creating solution instances, which will contain the applications and other platform resources dedicated to it.  A single solution can have any number of solution instances, and is only limited by what is defined in the contract.  A solution also has artifact repositories, and a set of releases, which are associated to it.</p>
+<h2 id="solution-instance">Solution Instance</h2>
+<p>Solution instances, or just instances as they are more commonly referred to, provide a grouping of platform resources that are intended to run together.  Many people think of instances as application environments, as they contain everything needed for an instance of the solution to run, and are generally dedicated to a specific purpose such as development, QA, staging or production.  Each instance has a portal and identity realm dedicated to it, and an instance type which identifies if that instance will act in a development, pre-production, or production capacity.  Instances contain runtime nodes, and are the target of deployments for releases.</p>
+<h2 id="runtime-node">Runtime Node</h2>
+<p>A runtime node is a running copy of an application.  At this time, they are limited to the Covisint portal, which means that each runtime node is a running portal.  For development instances, there is only one runtime node per instance.  For pre-production and production instances though, there will be multiple runtime nodes to provide load balancing and fault tolerance for the instance.  Each runtime node within an instance will always run the exact same copy of the application.</p>
+<h2 id="artifact">Artifact</h2>
+<p>The term artifact refers to those items which a developer creates that can be deployed to an instance.  For now, these are limited to portlets and themes, which can be deployed to a Covisint portal.  Artifacts can be uploaded into an external artifact repository that is owned by company.  From there, each artifact can be used in any number of releases.</p>
+<h2 id="release">Release</h2>
+<p>Releases are bundles of artifacts that are to be deployed to an instance together.  To prevent issues with knowing what is actually deployed, once a release is created, it is immutable.  A release can be used across any number of instances.</p>
 
                     
                     </section>
@@ -267,8 +280,10 @@
         </div>
 
         
+        <a href="./developer_portal_architecture.html" class="navigation navigation-prev " aria-label="Previous page: Developer Portal Architecture"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./developer_portal_architecture.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Developer Portal Architecture"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="./developer_portal_solution_center.html" class="navigation navigation-next " aria-label="Next page: Developer Portal Solution Center"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

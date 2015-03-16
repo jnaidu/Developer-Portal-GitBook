@@ -4,9 +4,9 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Developer Portal Overview | Developer Portal Overview</title>
+        <title>Developer Portal Solution Center Roles | Developer Portal Overview</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Developer Portal is a single location for everything related to developing applications on the Covisint Cloud Platform.  Its primary functions are divided between the Solution Center, which provides administrative control of the platform, and the Reference Center, which provides reference material for developing on the platform.  The Developer Portal requires an identity realm for managing company and user accounts, so a special administrative realm called the Platform Identity Realm has been created for its use.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -18,8 +18,10 @@
     
     
     
-    <link rel="next" href="./developer_portal_architecture.html" />
+    <link rel="next" href="./creating_solutions/README.html" />
     
+    
+    <link rel="prev" href="./developer_portal_solution_center.html" />
     
 
         
@@ -31,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="0" data-basepath="." data-revision="1426514853539">
+    <div class="book"  data-level="0.4" data-basepath="." data-revision="1426514853539">
     
 
 <div class="book-summary">
@@ -49,7 +51,7 @@
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
@@ -112,7 +114,7 @@
         </li>
     
         
-        <li class="chapter " data-level="0.4" data-path="developer_portal_solution_center_roles.html">
+        <li class="chapter active" data-level="0.4" data-path="developer_portal_solution_center_roles.html">
             
                 
                     <a href="./developer_portal_solution_center_roles.html">
@@ -253,10 +255,26 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_127">
+                    <section class="normal" id="section-gitbook_131">
                     
-                        <h1 id="developer-portal-overview">Developer Portal Overview</h1>
-<p>Developer Portal is a single location for everything related to developing applications on the Covisint Cloud Platform.  Its primary functions are divided between the Solution Center, which provides administrative control of the platform, and the Reference Center, which provides reference material for developing on the platform.  The Developer Portal requires an identity realm for managing company and user accounts, so a special administrative realm called the Platform Identity Realm has been created for its use.</p>
+                        <h1 id="developer-portal-solution-center-roles">Developer Portal Solution Center Roles</h1>
+<p>The Solution Center is an application within the Developer Portal that provides administrative control over the platform.  The application is used by both Covisint and external companies that are developing on the platform. It has self-service administrative functions for most of the concepts mentioned in this section.</p>
+<p>The Developer Portal Solution Center has its own set of associated roles, and when a user is granted a role, they gain access to specific features for that application.</p>
+<h2 id="solution-center-administrator-role">Solution Center Administrator Role</h2>
+<p>Solution Center Administrators are the highest level administrators in the Solution Center. They can manage the entire platform, and for most installations, this role will be limited to Covisint personnel. Solution Center Administrators can access the features of all subsequent roles. The first Solution Center Administrator will need to be added manually to the system.</p>
+<h2 id="solution-center-company-administrator-role">Solution Center Company Administrator Role</h2>
+<p>Solution Center Company Administrators represent the top-level administrators at a partner or customer that will be using the Solution Center.  They are primarily focused on creating solutions, and inviting other users to join the company.  This role is automatically tied to the company associated with the user.  Company Administrators can access features of all subsequent roles, but only on solutions and instances that are owned by their company.</p>
+<h2 id="solution-center-solution-administrator-role">Solution Center Solution Administrator Role</h2>
+<p>Solution Center Solution Administrators are those individuals within a company that have been given ownership over a solution.  They are primarily focused on tasks such as managing instances and releases for a solution.  This role must be granted to a user for each solution on which they need ownership.  Solution Administrators can access features of all subsequent roles, but only on solutions they own. They have complete read access to everything in their company, but no ability to change solutions for which they don&#39;t have ownerships.</p>
+<h2 id="solution-center-instance-administrator-role">Solution Center Instance Administrator Role</h2>
+<p>Solution Center Instance Administrators are those individuals within a company that have been given ownership over a solution instance.  They are primarily focused on tasks such as assigning developers and deploying releases to an instance.  This role must be granted to a user for each instance on which the need ownership.  Instance Administrators can access features of all subsequent roles, but only on instances they own.</p>
+<h2 id="solution-center-instance-developer-role">Solution Center Instance Developer Role</h2>
+<p>Solution Center Instance Developers are those individuals within a company that have been given development rights on a solution instance.  They are primarily focused on tasks such as deploying to development instances and restarting portal runtime nodes.  This role must be granted to a user for each instance on which they need access.</p>
+<h2 id="solution-center-user-role">Solution Center User Role</h2>
+<p>A Solution Center User is the most basic role in the Solution Center.  It should automatically be applied to any user that has been granted the service package for the Solution Center.  Those with the Solution Center User role have complete read access to everything in their company, but no ability to change anything.</p>
+<h2 id="role-map">Role Map</h2>
+<p>This section illustrates the concept of the solution center roles using an example. Some roles implicitly have access to the features of lower-level roles beneath them. The Solution Center Administrator has access to every solution and instance on the platform, even if they have not explicitly been granted the Solution Administrator or Instance Administrator roles. In the role map below, there are two companies on the platform - Company A and Company B. The Solution Center Admin role has access to all the features in Company A and Company B. Some roles must be granted against the entity which they are intended to protect. The Solution Center Company Admin has access to all the features within Company A. In other words, the Solution Center Company Admin has access to all the solutions under Company A - Solution 1, Solution 2, and Solution 3. The Solution Center Solution Admin role has administrative rights to just one particular solution and all the instances under that solution. This role has access to Solution 1, and all the instances - Dev Instance, Pre-Prod Instance, and Prod Instance. The Solution Center Instance Admin and the Solution Center Instance Developer roles have administrative rights to only the instance they&#39;re given access to. They have access to Dev Instance.
+<img src="ScRoleMap.png" alt=""></p>
 
                     
                     </section>
@@ -267,8 +285,10 @@
         </div>
 
         
+        <a href="./developer_portal_solution_center.html" class="navigation navigation-prev " aria-label="Previous page: Developer Portal Solution Center"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./developer_portal_architecture.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Developer Portal Architecture"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="./creating_solutions/README.html" class="navigation navigation-next " aria-label="Next page: Creating Solutions"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
