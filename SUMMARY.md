@@ -22,5 +22,6 @@
    * [Deploy Release](managing_instances/deploy_release.md)
        * [Hot Deploy a portal WAR](managing_instances/hot_deploy_a_portal_war.md)
        * [Restart Node](managing_instances/restart_node.md)
+   * [View Users](managing_instances/view_users.md)
 * [Managing Roles](managing_roles/README.md)
 
