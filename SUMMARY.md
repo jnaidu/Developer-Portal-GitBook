@@ -7,5 +7,6 @@
    * [Developer Portal Solution Center Roles](developer_portal_solution_center_roles.md)
 * [Creating Solutions](creating_solutions/README.md)
    * [Create a Solution](creating_solutions/create_a_solution.md)
+   * [Create an Instance](creating_solutions/create_an_instance.md)
 * [Managing Roles](managing_roles/README.md)
 
