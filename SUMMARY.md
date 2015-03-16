@@ -10,5 +10,6 @@
    * [Create an Instance](creating_solutions/create_an_instance.md)
 * [Managing Solutions](managing_solutions/README.md)
    * [View Solutions](managing_solutions/view_solutions.md)
+   * [Update Solution](managing_solutions/update_solution.md)
 * [Managing Roles](managing_roles/README.md)
 
