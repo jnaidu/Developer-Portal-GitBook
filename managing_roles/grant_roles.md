@@ -36,6 +36,23 @@ Any of the roles below:
 1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Users** tab. A list of users who have access to your solution will be displayed.
-4. To grant the role to a user account, click **Add role** corresponding to the desired user.
-5. Click **Yes** on the pop-up window.
-6. The user with the new role will show up under the **All Users** table.
+4. Search for the desired user, and select a user by clicking on the user name.
+4. To grant this role to a user account, check the box under section **Assign Role/s**, and click the **Add** button.
+5. The user with the new role will show up under the **All Users** table.
+
+## Grant the Solution Center Instance Admin role to a user account for an instance
+### Who can perform this function?
+Any of the roles below:
+* Solution Center Administrator
+* Solution Center Company Administrator
+* Solution Center Solution Administrator
+* Solution Center Instance Administrator
+
+### Steps:
+1. On the left panel, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+2. Select your solution by clicking on the solution name.
+3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
+4. Select an instance by clicking on the instance name to retrieve an instance.
+5. Click the **Users** tab. A list of all the users for your instance will be displayed.
+6. To grant the role, select or lookup the desired use.
+7. Under the **Assign Role/s** section, check the box next to the Solution Center Instance Admin role, and click the **Add** button.
