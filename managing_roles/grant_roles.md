@@ -3,11 +3,6 @@
 ## Grant the Solution Center Admin role to a user account
 ### Who can perform this function?
 * Solution Center Administrator
-* Solution Center Company Administrator
-* Solution Center Solution Administrator
-* Solution Center Instance Administrator
-* Solution Center Instance Developer
-* Solution Center User
 
 ### Steps:
 1. On the left panel, click **Security**. A list of companies will be displayed.
