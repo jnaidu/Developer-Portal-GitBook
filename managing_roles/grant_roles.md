@@ -20,7 +20,8 @@ Any of the roles below:
 * Solution Center Company Administrator
 
 ### Steps:
-1. On the left panel, click **Security**. A list of user accounts that have been granted the Solution Center Admin role will be displayed.
+1. On the left panel, click **Security**.
+2. Click the **Company Admin** tab. A list of user accounts that have been granted the Solution Center Company Admin role will be displayed.
 2. Select a user by clicking on the user name. All the roles granted to the user will be displayed in the context of the scope.
 3. Click **Add Roles**.
 4. Select **Solution Center Company Admin**, and click the **Submit** button. The New Assigned Roles table will display the Solution Center Company Admin role granted to the user.
@@ -40,7 +41,7 @@ Any of the roles below:
 4. To grant this role to a user account, check the box under section **Assign Role/s**, and click the **Add** button.
 5. The user with the new role will show up under the **All Users** table.
 
-## Grant the Solution Center Instance Admin role to a user account for an instance
+## Grant the Solution Center Instance Admin role and/or Solution Center Instance Developer role to a user account for an instance
 ### Who can perform this function?
 Any of the roles below:
 * Solution Center Administrator
@@ -55,4 +56,4 @@ Any of the roles below:
 4. Select an instance by clicking on the instance name to retrieve an instance.
 5. Click the **Users** tab. A list of all the users for your instance will be displayed.
 6. To grant the role, select or lookup the desired use.
-7. Under the **Assign Role/s** section, check the box next to the Solution Center Instance Admin role, and click the **Add** button.
+7. Under the **Assign Role/s** section, check the boxes next to the desired roles, and click the **Add** button.
