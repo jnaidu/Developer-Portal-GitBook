@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Deploy Release | Developer Portal Overview</title>
+        <title>Revoke Roles | Developer Portal Overview</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,10 +18,8 @@
     
     
     
-    <link rel="next" href="../managing_instances/hot_deploy_a_portal_war.html" />
     
-    
-    <link rel="prev" href="../managing_instances/manage_vanity_urls.html" />
+    <link rel="prev" href="../managing_roles/view_granted_roles.html" />
     
 
         
@@ -33,7 +31,7 @@
 
 
         
-    <div class="book"  data-level="3.6" data-basepath=".." data-revision="1426607966378">
+    <div class="book"  data-level="4.3" data-basepath=".." data-revision="1426607966378">
     
 
 <div class="book-summary">
@@ -388,7 +386,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="3.6" data-path="managing_instances/deploy_release.html">
+        <li class="chapter " data-level="3.6" data-path="managing_instances/deploy_release.html">
             
                 
                     <a href="../managing_instances/deploy_release.html">
@@ -512,7 +510,7 @@
         </li>
     
         
-        <li class="chapter " data-level="4.3" data-path="managing_roles/revoke_roles.html">
+        <li class="chapter active" data-level="4.3" data-path="managing_roles/revoke_roles.html">
             
                 
                     <a href="../managing_roles/revoke_roles.html">
@@ -621,40 +619,70 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_1282">
+                    <section class="normal" id="section-gitbook_1292">
                     
-                        <h1 id="deploy-release">Deploy Release</h1>
-<p>some text</p>
-<h2 id="who-can-perform-this-function">Who can perform this function?</h2>
+                        <h1 id="revoke-roles">Revoke Roles</h1>
+<h2 id="revoke-the-solution-center-admin-role-from-a-user-account">Revoke the Solution Center Admin role from a user account</h2>
+<h3 id="who-can-perform-this-function">Who can perform this function?</h3>
+<ul>
+<li>Solution Center Administrator</li>
+</ul>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>On the left panel, click <strong>Security</strong>.</li>
+<li>Click the <strong>Solution Center Admin</strong> tab.</li>
+<li>A list of user accounts that have been granted the Solution Center Admin role will be displayed.</li>
+<li>Search the desired user by keying in the user name in the <strong>User Lookup</strong> text field.</li>
+<li>Select a user by clicking on the user name. All the roles granted to the user will be displayed.</li>
+<li>Click the <strong>Remove Role</strong> icon next to the desired user to revoke the role from the user account.</li>
+</ol>
+<h2 id="revoke-the-solution-center-company-admin-role-from-a-user-account-for-a-company">Revoke the Solution Center Company Admin role from a user account for a company</h2>
+<h3 id="who-can-perform-this-function">Who can perform this function?</h3>
 <p>Any of the roles below:</p>
 <ul>
 <li>Solution Center Administrator</li>
 <li>Solution Center Company Administrator</li>
-<li>Solution Center Solution Administrator</li>
+</ul>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>On the left panel, click <strong>Security</strong>.</li>
+<li>Click the <strong>Company Admin</strong> tab. A list of user accounts that have been granted the Solution Center Company Admin role will be displayed.</li>
+<li>Search the desired user by keying in the user name in the <strong>User Lookup</strong> text field.</li>
+<li>Click the <strong>Remove Role</strong> icon next to the desired user to revoke the role from the user account.</li>
+</ol>
+<h2 id="revoke-the-solution-center-solution-admin-role-from-a-user-account-for-a-solution">Revoke the Solution Center Solution Admin role from a user account for a solution</h2>
+<h3 id="who-can-perform-this-function">Who can perform this function?</h3>
+<p>Any of the roles below:</p>
+<ul>
+<li>Solution Center Administrator</li>
+<li>Solution Center Company Administrator</li>
+</ul>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>On the left panel, click <strong>Solutions</strong>. A list of all the solutions that have access to the solution center will be displayed.</li>
+<li>Select your solution by clicking on the solution name.</li>
+<li>Click the <strong>Users</strong> tab. A list of users who have access to your solution will be displayed.</li>
+<li>Search the desired user by keying in the user name in the <strong>User Lookup</strong> text field.</li>
+<li>Select the user by clicking on the user name.</li>
+<li>Under the <strong>Remove Assigned Roles</strong> section, check the box next to the desired role, and click the <strong>Remove</strong> button to revoke the role from the user account.</li>
+</ol>
+<h2 id="revoke-the-solution-center-instance-admin-role-or-solution-center-instance-developer-role-from-a-user-account-for-an-instance">Revoke the Solution Center Instance Admin role or Solution Center Instance Developer role from a user account for an instance</h2>
+<h3 id="who-can-perform-this-function">Who can perform this function?</h3>
+<p>Any of the roles below:</p>
+<ul>
+<li>Solution Center Administrator</li>
+<li>Solution Center Company Administrator</li>
 <li>Solution Center Instance Administrator</li>
 </ul>
-<h2 id="deploy-a-specified-portal-release-to-an-instance-and-configure-portal-runtime-nodes-for-an-instance">Deploy a specified portal release to an instance and configure portal runtime nodes for an instance</h2>
 <h3 id="steps">Steps:</h3>
 <ol>
 <li>On the left panel, click <strong>Solutions</strong>. A list of all the solutions for your company that have access to the solution center will be displayed.</li>
 <li>Select your solution by clicking on the solution name.</li>
 <li>Click the <strong>Instances</strong> tab. A list of all the instances for the selected solution will be displayed.</li>
 <li>Select an instance by clicking on the instance name to retrieve an instance.</li>
-<li>Click the <strong>Deployments</strong> tab.</li>
-<li>Click <strong>Deploy Release</strong>. A list of active releases will be displayed.</li>
-<li>Click <strong>Add Release</strong>.</li>
-<li>Provide a friendly release name in the field <strong>Release Name</strong>.</li>
-<li>Provide a release description in the field <strong>Release Description</strong>.</li>
-<li>Attach a YAML file for the release, and click the <strong>Add Release</strong> button. At thi stage, your release is ready for deployment.</li>
-<li>Run the release by clicking on the action button next to the desired release.</li>
-<li>Release will be deployed, and will be available once the nodes have started.<ul>
-<li>The number of portal runtime nodes for a development instance is 1.</li>
-<li>The number of portal runtime nodes for a pre-production instance is 2.</li>
-<li>By default, the number of portal runtime nodes for a production instance is 2. However, you&#39;re allowed to increase the number of portal runtime nodes for a production instance upto 10.</li>
-</ul>
-</li>
-<li>You can view the status of all the portal runtime nodes under the <strong>Active Nodes</strong> section.</li>
-<li>You can scale up your nodes for an instance by clicking on the up arrow next to the <strong>Scale</strong> field under the <strong>Scales Nodes</strong> column. Also, you can increase the node memory by clicking on the up arrow next to the <strong>Scale</strong> field under the <strong>Memory per Node</strong> column. The maximum amount of memory allowed per node is 4GB.</li>
+<li>Click the <strong>Users</strong> tab. A list of all the users for your instance will be displayed.</li>
+<li>To revoke the role, select or lookup the desired use.</li>
+<li>Under the <strong>Remove Assigned Roles</strong> section, check the boxes next to the desired roles, and click the <strong>Remove</strong> button.</li>
 </ol>
 
                     
@@ -666,10 +694,8 @@
         </div>
 
         
-        <a href="../managing_instances/manage_vanity_urls.html" class="navigation navigation-prev " aria-label="Previous page: Manage Vanity URLs"><i class="fa fa-angle-left"></i></a>
+        <a href="../managing_roles/view_granted_roles.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: View Granted Roles"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../managing_instances/hot_deploy_a_portal_war.html" class="navigation navigation-next " aria-label="Next page: Hot Deploy a portal WAR"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
