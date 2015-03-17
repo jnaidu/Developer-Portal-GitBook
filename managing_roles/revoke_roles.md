@@ -37,3 +37,35 @@ Any of the roles below:
 4. Search the desired user by keying in the user name in the **User Lookup** text field.
 5. Select the user by clicking on the user name.
 6. Under the **Remove Assigned Roles** section, check the box next to the desired role, and click the **Remove** button to revoke the role from the user account.
+
+## Revoke the Solution Center Instance Admin role from a user account for an instance
+### Who can perform this function?
+Any of the roles below:
+* Solution Center Administrator
+* Solution Center Company Administrator
+* Solution Center Instance Administrator
+
+### Steps:
+1. On the left panel, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+2. Select your solution by clicking on the solution name.
+3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
+4. Select an instance by clicking on the instance name to retrieve an instance.
+5. Click the **Users** tab. A list of all the users for your instance will be displayed.
+6. To revoke the role, select or lookup the desired use.
+7. Under the **Remove Assigned Roles** section, check the box next to the Solution Center Instance Admin role, and click the **Remove** button.
+
+## Revoke the Solution Center Instance Developer role from a user account for an instance
+### Who can perform this function?
+Any of the roles below:
+* Solution Center Administrator
+* Solution Center Company Administrator
+* Solution Center Instance Administrator
+
+### Steps:
+1. On the left panel, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+2. Select your solution by clicking on the solution name.
+3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
+4. Select an instance by clicking on the instance name to retrieve an instance.
+5. Click the **Users** tab. A list of all the users for your instance will be displayed.
+6. To revoke the role, select or lookup the desired use.
+7. Under the **Remove Assigned Roles** section, check the box next to the Solution Center Instance Developer role, and click the **Remove** button.
