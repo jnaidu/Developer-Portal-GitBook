@@ -30,3 +30,5 @@ Identity Services has the following components:
     * Translation and Mapping
 
 With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment.
+
+![](Developer_Portal_Architecture.png)
