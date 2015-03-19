@@ -8,26 +8,27 @@ Application developers can use the Cloud Foundry command line interface or the b
 * Orchestrate application deployments
 * Manage service allocations
 
+The actual development will be done in the Portal Services UI/UX space.
 The PaaS layer comprises two services: Identity Services and Messaging Services.
 
-Identity Services has the following components:
+Identity Services specifies three components:
 
-* ID Authenticator
+* ID Authenticator - Validates, verifies, and authenticates a user's identity
     * ID/Password
     * 2 Factor
     * Risk-based Authentication
     * Policy Enforcement
-* ID Provision
+* ID Provision - Manages, and authorizes user accounts for access to appropriate digital resources.
     * Password Management
     * Provisioning
     * Profile Management
     * Authorization Management
     * Role Management
     * Workflow Engine
-* ID Broker
+* ID Broker - Manage and configure federations
     * Security Token Service
     * Federation Protocols
-    * Translation and Mapping
+    * Token Translation and Attribute Mapping
 
 With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment.
 
