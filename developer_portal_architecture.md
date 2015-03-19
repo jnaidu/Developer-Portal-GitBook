@@ -1,15 +1,14 @@
 # Developer Portal Architecture
 
-The AppCloud Developer Portal is the provisioning and configuration engine of the PaaS. It provides a foundation for developers to build highly scalable and robust applications.
+The AppCloud Developer Portal is the provisioning and configuration engine of the Covisint Platform. It provides a foundation for developers to build highly scalable and robust applications.
 
-Application developers can use the Cloud Foundry command line interface or the browser-based UI to perform the following tasks:
+Application developers can use the Developer Portal Solution Center UI to perform the following tasks:
 * Manage users, roles, and access to the Solution Center
 * Create/Delete application runtimes
 * Orchestrate application deployments
-* Manage service allocations
 
-The actual development will be done in the Portal Services UI/UX space.
-The PaaS layer comprises two services: Identity Services and Messaging Services.
+The UX development can be done using the Covisint Portal Framework based on Liferay. Developers can write/deploy JSR compliant portlets.
+The PaaS layer comprises two sets of services: Identity Services and Messaging Services.
 
 Identity Services specifies three components:
 
@@ -30,6 +29,9 @@ Identity Services specifies three components:
     * Federation Protocols
     * Token Translation and Attribute Mapping
 
-With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment.
+With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment. The key features of the messaging services are:
+* Ability to create communication channel
+* User XSLT transformation
+* Pre-built custom processes
 
 ![](Developer_Portal_Architecture.png)
