@@ -25,7 +25,7 @@
        * [Restart Node](managing_instances/restart_node.md)
    * [View Users](managing_instances/view_users.md)
 * [Managing Roles](managing_roles/README.md)
-   * [Grant Roles](managing_roles/grant_roles.md)
+   * [Assign Roles](managing_roles/grant_roles.md)
    * [View Granted Roles](managing_roles/view_granted_roles.md)
-   * [Revoke Roles](managing_roles/revoke_roles.md)
+   * [Remove Roles](managing_roles/revoke_roles.md)
 
