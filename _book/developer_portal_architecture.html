@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="0.1" data-basepath="." data-revision="1426784898706">
+    <div class="book"  data-level="0.1" data-basepath="." data-revision="1426797581379">
     
 
 <div class="book-summary">
@@ -621,28 +621,28 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3149">
+                    <section class="normal" id="section-gitbook_3903">
                     
                         <h1 id="developer-portal-architecture">Developer Portal Architecture</h1>
-<p>The AppCloud Developer Portal is the provisioning and configuration engine of the PaaS. It provides a foundation for developers to build highly scalable and robust applications.</p>
-<p>Application developers can use the Cloud Foundry command line interface or the browser-based UI to perform the following tasks:</p>
+<p>The AppCloud Developer Portal is the provisioning and configuration engine of the Covisint Platform. It provides a foundation for developers to build highly scalable and robust applications.</p>
+<p>Application developers can use the Developer Portal Solution Center UI to perform the following tasks:</p>
 <ul>
 <li>Manage users, roles, and access to the Solution Center</li>
 <li>Create/Delete application runtimes</li>
 <li>Orchestrate application deployments</li>
-<li>Manage service allocations</li>
 </ul>
-<p>The PaaS layer comprises two services: Identity Services and Messaging Services.</p>
-<p>Identity Services has the following components:</p>
+<p>The UX development can be done using the Covisint Portal Framework based on Liferay. Developers can write/deploy JSR compliant portlets.
+The PaaS layer comprises two sets of services: Identity Services and Messaging Services.</p>
+<p>Identity Services specifies three components:</p>
 <ul>
-<li>ID Authenticator<ul>
+<li>ID Authenticator - Validates, verifies, and authenticates a user&#39;s identity<ul>
 <li>ID/Password</li>
 <li>2 Factor</li>
 <li>Risk-based Authentication</li>
 <li>Policy Enforcement</li>
 </ul>
 </li>
-<li>ID Provision<ul>
+<li>ID Provision - Manages, and authorizes user accounts for access to appropriate digital resources.<ul>
 <li>Password Management</li>
 <li>Provisioning</li>
 <li>Profile Management</li>
@@ -651,14 +651,19 @@
 <li>Workflow Engine</li>
 </ul>
 </li>
-<li>ID Broker<ul>
+<li>ID Broker - Manage and configure federations<ul>
 <li>Security Token Service</li>
 <li>Federation Protocols</li>
-<li>Translation and Mapping</li>
+<li>Token Translation and Attribute Mapping</li>
 </ul>
 </li>
 </ul>
-<p>With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment.</p>
+<p>With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment. The key features of the messaging services are:</p>
+<ul>
+<li>Ability to create communication channel</li>
+<li>User XSLT transformation</li>
+<li>Pre-built custom processes</li>
+</ul>
 <p><img src="Developer_Portal_Architecture.png" alt=""></p>
 
                     
