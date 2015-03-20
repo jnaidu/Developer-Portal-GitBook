@@ -1,6 +1,6 @@
 # Remove Roles
 
-## remove the Solution Center Admin role from a user account
+## Remove the Solution Center Admin role from a user account
 ### Who can perform this function?
 * Solution Center Administrator
 
