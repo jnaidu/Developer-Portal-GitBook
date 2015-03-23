@@ -12,5 +12,5 @@ Covisint Developer Portal offers the following features:
 
 Developer Portal abstracts away the headaches of managing, security, and scaling, which enables the developers to move from concept to workable product as quickly as possible. An Organization can focus on two things: customers and spend more time building the application.
 
-
+In this book, a company has a very explicit definition - It is either a partner or a customer that is using the Developer Portal Solution Center to administer their solutions on the platform. Companies must be invited to join the platform, and during registration, their initial user account is created.
 
