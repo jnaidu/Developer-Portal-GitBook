@@ -1,5 +1,5 @@
 ## View Users
-This sections illustrates how to retrieve a list of user accounts that have access to a solution.
+This section illustrates how to retrieve a list of user accounts that have access to a solution.
 
 ### Who can perform this function?
 Any of the roles below:
