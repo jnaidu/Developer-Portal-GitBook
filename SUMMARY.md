@@ -26,6 +26,6 @@
    * [View Users](managing_instances/view_users.md)
 * [Managing Roles](managing_roles/README.md)
    * [Assign Roles](managing_roles/grant_roles.md)
-   * [View Granted Roles](managing_roles/view_granted_roles.md)
+   * [View Assigned Roles](managing_roles/view_granted_roles.md)
    * [Remove Roles](managing_roles/revoke_roles.md)
 
