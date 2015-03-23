@@ -1,12 +1,12 @@
-# Create an Instance
+## Create an Instance
 You'll be able to create multiple instances for a solution.
 
-## Who can perform this function?
+### Who can perform this function?
 * Solution Center Administrator
 * Solution Center Company Administrator
 * Solution Center Solution Administrator
 
-## Steps
+### Steps
 1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Instances** tab. A list of all the instances for your solution will be displayed if you have added any instances before.

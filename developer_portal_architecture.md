@@ -1,4 +1,4 @@
-# Developer Portal Architecture
+## Developer Portal Architecture
 
 The AppCloud Developer Portal is the provisioning and configuration engine of the Covisint Platform. It provides a foundation for developers to build highly scalable and robust applications.
 

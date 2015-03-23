@@ -1,4 +1,4 @@
-# Developer Portal Overview
+## Developer Portal Overview
 
 Covisint Developer Portal is a single location for everything related to developing applications on the Covisint Cloud Platform. It empowers developers to build applications and services, which can be offered over the Internet. It is built on the Cloud Foundry open source technology, which makes it easier to deploy, run, and scale applications.
 

@@ -1,14 +1,14 @@
-# Managing Releases
+## Managing Releases
 
-## Who can perform this function?
+### Who can perform this function?
 Any of the roles below:
 * Solution Center Administrator
 * Solution Center Company Administrator
 * Solution Center Solution Administrator
 * Solution Center Instance Administrator
 
-## Create a release
-### Steps:
+### Create a release
+#### Steps:
 1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Release** tab. The history of releases will be displayed.
@@ -18,11 +18,11 @@ Any of the roles below:
 7. Attach a YAML file.
 8. Click the **Add Release** button to add the release to your solution.
 
-## Update a release
+### Update a release
 PENDING
 
-## Deactivate a release
-### Steps:
+### Deactivate a release
+#### Steps:
 1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Release** tab. The history of releases will be displayed.

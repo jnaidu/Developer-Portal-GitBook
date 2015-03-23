@@ -1,11 +1,11 @@
-# Create a Solution
+## Create a Solution
 You'll be able to create multiple solutions for a company.
 
-## Who can perform this function?
+### Who can perform this function?
 * Solution Center Admins can create solutions for any company.
 * Solution Center Company Admins can create solutions for their company.
 
-## Steps
+### Steps
 1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
 2. Click **Add Solution**.
 3. Provide a friendly solution name in the field **Solution Name**.
