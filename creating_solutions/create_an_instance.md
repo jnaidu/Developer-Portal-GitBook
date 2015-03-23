@@ -1,5 +1,5 @@
 ## Create an Instance
-You'll be able to create multiple instances for a solution.
+Solution instances, or just instances as they are more commonly referred to, provide a grouping of platform resources that are intended to run together.  Many people think of instances as application environments, as they contain everything needed for an instance of the solution to run, and are generally dedicated to a specific purpose such as development, QA, staging or production.  Each instance has a portal and identity realm dedicated to it, and an instance type which identifies if that instance will act in a development, pre-production, or production capacity.  Instances contain runtime nodes, and are the target of deployments for releases. You'll be able to create multiple instances for a solution.
 
 ### Who can perform this function?
 * Solution Center Administrator
