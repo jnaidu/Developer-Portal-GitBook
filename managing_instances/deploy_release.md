@@ -1,5 +1,9 @@
 ## Deploy Release
-some text
+This section depicts how to deploy the release components into an instance.
+
+### What is a Runtime Node?
+
+A runtime node is a running copy of an application.  At this time, they are limited to the Covisint portal, which means that each runtime node is a running portal.  For development instances, there is only one runtime node per instance.  For pre-production and production instances though, there will be multiple runtime nodes to provide load balancing and fault tolerance for the instance.  Each runtime node within an instance will always run the exact same copy of the application.
 
 ### Who can perform this function?
 Any of the roles below:

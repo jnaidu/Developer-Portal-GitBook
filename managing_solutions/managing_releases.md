@@ -1,4 +1,7 @@
 ## Managing Releases
+### What is a Release?
+
+Releases are bundles of artifacts that are to be deployed to an instance together.  To prevent issues with knowing what is actually deployed, once a release is created, it is immutable.  A release can be used across any number of instances.
 
 ### Who can perform this function?
 Any of the roles below:

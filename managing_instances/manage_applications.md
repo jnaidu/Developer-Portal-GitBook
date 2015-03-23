@@ -1,5 +1,5 @@
 ## Manage Applications
-some text
+The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register. This section walks you through the process of creating one.
 
 ### Who can perform this function?
 Any of the roles below:
