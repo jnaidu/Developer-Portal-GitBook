@@ -1,5 +1,5 @@
 ## Manage Vanity URLs
-some text
+We all know the magic of using a vanity URL - a small cosmetic change can have a huge impact on your brand presence. The Solution Center Instance page offers company the option to customize their Identity and Portal URLs. Once an instance is created you can only enter the custom URL prefixes for Identity and Portal. The steps below walks you through the process of updating your vanity URLs, once the instance is created.
 
 ### Who can perform this function?
 Any of the roles below:
