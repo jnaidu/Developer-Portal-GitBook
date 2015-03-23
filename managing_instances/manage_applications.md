@@ -35,4 +35,4 @@ Any of the roles below:
 4. Select an instance by clicking on the instance name to retrieve an instance.
 5. All the applications for your instance will be displayed under the **Applications** section.
 6. Click the delete icon next to the desired application name to delete the application.
-7. Enter a reason for deleting the application, and click **Yes**.
+7. Enter a reason for deleting the application, and click **Yes**. Deleting an application will revoke all authorizations for that application.
