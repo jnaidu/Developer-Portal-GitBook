@@ -1,9 +1,9 @@
 # Summary
 
 * [Developer Portal Overview](README.md)
-   * [Developer Portal Architecture](developer_portal_architecture.md)
-   * [Developer Portal Solution Center](developer_portal_solution_center.md)
-   * [Developer Portal Solution Center Roles](developer_portal_solution_center_roles.md)
+   * [Architecture](developer_portal_architecture.md)
+   * [Solution Center](developer_portal_solution_center.md)
+   * [Solution Center Roles](developer_portal_solution_center_roles.md)
 * [Creating Solutions](creating_solutions/README.md)
    * [Create Solution](creating_solutions/create_a_solution.md)
    * [Create Instance](creating_solutions/create_an_instance.md)
