@@ -11,7 +11,7 @@ Any of the roles below:
 * Solution Center User
 
 ### Steps:
-1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+1. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
 4. To retrieve a single instance, select an instance by clicking on the instance name to retrieve an instance.
