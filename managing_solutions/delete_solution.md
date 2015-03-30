@@ -9,7 +9,7 @@ Any of the roles below:
 If you delete a solution, the instances connected to a solution will no longer be available.
 
 ### Steps:
-1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
+1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click **Edit Solution**.
 4. To delete a solution, click **Delete Solution** from the **EDIT SOLUTION** page.

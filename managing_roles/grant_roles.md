@@ -6,7 +6,7 @@ some text
 * Solution Center Administrator
 
 #### Steps:
-1. On the left panel, click **Security**.
+1. On the left panel of the **Solutions Center**, click **Security**.
 2. Click the **Solution Center Admin** tab.
 3. A list of user accounts that have been assigned the Solution Center Admin role will be displayed.
 4. Search the desired user by keying in the user name in the **User Lookup** text field.
@@ -21,7 +21,7 @@ Any of the roles below:
 * Solution Center Company Administrator
 
 #### Steps:
-1. On the left panel, click **Security**.
+1. On the left panel of the **Solutions Center**, click **Security**.
 2. Click the **Company Admin** tab. A list of user accounts that have been assigned the Solution Center Company Admin role will be displayed.
 2. Select a user by clicking on the user name. All the roles assigned to the user will be displayed in the context of the scope.
 3. Click **Add Roles**.
@@ -35,7 +35,7 @@ Any of the roles below:
 * Solution Center Solution Administrator
 
 #### Steps:
-1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
+1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Users** tab. A list of users who have access to your solution will be displayed.
 4. Search for the desired user, and select a user by clicking on the user name.
@@ -51,7 +51,7 @@ Any of the roles below:
 * Solution Center Instance Administrator
 
 #### Steps:
-1. On the left panel, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
 4. Select an instance by clicking on the instance name to retrieve an instance.

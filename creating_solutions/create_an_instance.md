@@ -7,7 +7,7 @@ Solution instances, or just instances as they are more commonly referred to, pro
 * Solution Center Solution Administrator
 
 ### Steps
-1. On the left panel, click **Solutions Center**. A list of all the solutions that have access to the solution center will be displayed.
+1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Instances** tab. A list of all the instances for your solution will be displayed if you have added any instances before.
 4. Click **Add Instance**.

@@ -12,7 +12,7 @@ Any of the roles below:
 
 ### Create a release
 #### Steps:
-1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
+1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Release** tab. The history of releases will be displayed.
 4. Click **Add Release** to create a new release.
@@ -26,7 +26,7 @@ PENDING
 
 ### Deactivate a release
 #### Steps:
-1. On the left panel, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
+1. On the left panel of the **Solutions Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Release** tab. The history of releases will be displayed.
 4. Click the deactivate icon under the Action column next to the release that you want to deactivate.
