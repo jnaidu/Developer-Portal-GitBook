@@ -13,7 +13,7 @@ You'll be able to create multiple solutions for a company.
 5. Provide a friendly solution name in the field **Solution Name**.
 6. Provide a solution description in the field **Solution Description**.
 ![](add_solution.jpg)
-7. Click the **Add Solution** button.
+7. Click the **Add** button.
 8. Your solution has been created successfully.
 
 
