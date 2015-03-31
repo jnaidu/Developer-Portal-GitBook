@@ -14,12 +14,13 @@ Any of the roles below:
 
 ### Deploy a specified portal release to an instance and configure portal runtime nodes for an instance
 #### Steps:
-1. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
+1. Click the **Solutions** tab.
+2. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
 2. Select your solution by clicking on the solution name.
 3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
 4. Select an instance by clicking on the instance name to retrieve an instance.
-5. Click the **Deployments** tab.
-6. Click **Deploy Release**. A list of active releases will be displayed.
+5. Click the **Deploy** tab.
+6. Click **Deploy a different Release**. A list of active solution releases will be displayed.
 7. Click **Add Release**.
 8. Provide a friendly release name in the field **Release Name**.
 9. Provide a release description in the field **Release Description**.

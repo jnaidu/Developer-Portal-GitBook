@@ -12,7 +12,9 @@ Any of the roles below:
 #### Steps:
 1. Click the **Solutions** tab.
 2. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions for your company that have access to the solution center will be displayed.
-2. Select your solution by clicking on the solution name.
-3. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
-4. Select an instance by clicking on the instance name to retrieve an instance.
-5. Under the **URLs**, click **Edit**. You'll not be able to edit the Parent Domain. Update the name for any of the subdomains, and click **Save**, enter the reason for deleting, and click **Yes** to save the subdomain URLs.
+3. Select your solution by clicking on the solution name.
+4. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
+5. Select an instance by clicking on the instance name to retrieve an instance.
+6. Under the **URLs**, click **Edit**. You'll not be able to edit the Parent Domain. Update the name for any of the subdomains, and click **Save**, enter the reason for deleting, and click **Yes** to save the subdomain URLs.
+
+![](edit_urls.jpg)
