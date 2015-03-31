@@ -10,7 +10,6 @@
 * [Managing Solutions](managing_solutions/README.md)
    * [View Solutions](managing_solutions/view_solutions.md)
    * [Update Solution](managing_solutions/update_solution.md)
-   * [Delete Solution](managing_solutions/delete_solution.md)
    * [View Users](managing_solutions/view_users.md)
 * [Managing Instances](managing_instances/README.md)
    * [Managing Releases](managing_solutions/managing_releases.md)
