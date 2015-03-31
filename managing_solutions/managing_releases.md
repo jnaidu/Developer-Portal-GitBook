@@ -24,12 +24,7 @@ Any of the roles below:
 8. Click the **Add** button to add the release to your solution.
 ![](add_release_final.jpg)
 
-### Deactivate a release
-#### Steps:
-1. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
-2. Select your solution by clicking on the solution name.
-3. Click the **Release** tab. The history of releases will be displayed.
-4. Click the deactivate icon under the Action column next to the release that you want to deactivate.
+
 
 ## Retrieve manifest file for a release
 PENDING
