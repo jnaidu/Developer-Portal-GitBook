@@ -10,6 +10,35 @@ Any of the roles below:
 * Solution Center Solution Administrator
 * Solution Center Instance Administrator
 
+### Create the release definition
+
+The release definition can be configured using a yaml file that defines:
+* the location of your maven repository
+* the repository Id
+* authentication to the repository (this is optional)
+* list of deployment artifacts using GAV notation
+
+See the example below:
+
+```
+repository:
+  location: nexus.covisintrnd.com:8081/nexus
+  repo-id: covs-release
+  skip-ssl: true #optional default - false
+  authentication:
+    username: admin
+    password: start123
+webapps: #specify all wars as a sequence of GAV Coordinates this would go into tomcat\webapps folder
+  - g: com.yourGroup
+    a: your-Artifact
+    v: your-Version
+
+  - g: com.yourGroup
+    a: your-nextArtifact
+    v: your-nextVersion
+```
+
+
 ### Create a release
 #### Steps:
 1. Click the **Solutions** tab.
