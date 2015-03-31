@@ -20,7 +20,7 @@ Solution instances, or just instances as they are more commonly referred to, pro
 8. Click the **Add** button.
 9. The instance creation does the following background work to set up the instance:
     1. Create Realm
-    2. Create Portal    
+    2. Create Portal
 ![](instance_created.jpg)
 10. Once your instance has been successfully provisioned, go back to the **Instance** page, and click on the instance name to note down the instance details.The admin login Id is always “SOLUTION ALIAS-INSTANCE ALIAS_ADMIN”. This is the SEED ACCOUNT for this solution instance.
 ![](instance_details.jpg)
