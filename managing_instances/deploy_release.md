@@ -26,6 +26,6 @@ Any of the roles below:
 8. Release will be deployed, and will be available once the nodes have started.
     * The number of portal runtime nodes for a development instance is 1.
     * The number of portal runtime nodes for a pre-production instance is 2.
-    * By default, the number of portal runtime nodes for a production instance is 2. However, you're allowed to increase the number of portal runtime nodes for a production instance upto 10.
-12. You can view the status of all the portal runtime nodes under the **Active Nodes** section.
-13. You can scale up your nodes for an instance by clicking on the up arrow next to the **Scale** field under the **Scales Nodes** column. Also, you can increase the node memory by clicking on the up arrow next to the **Scale** field under the **Memory per Node** column. The maximum amount of memory allowed per node is 4GB.
+    * By default, the number of portal runtime nodes for a production instance is 2. However, you're allowed to increase the number of portal runtime nodes for a production instance upto
+9. You can view the status of all the portal runtime nodes under the **Monitor** tab.
+10. You can scale up your nodes for an instance by clicking on the up arrow next to the **Scale** field under the **Scales Nodes** column. Also, you can increase the node memory by clicking on the up arrow next to the **Scale** field under the **Memory per Node** column. The maximum amount of memory allowed per node is 4GB.
