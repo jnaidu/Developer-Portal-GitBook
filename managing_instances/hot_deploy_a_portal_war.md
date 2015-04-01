@@ -14,5 +14,5 @@ Hot Deploy a portal WAR file to an instance
 ![](hot_1.jpg)
 3. Click the **Apps** tab, and then click the **Install** tab.
 ![](install_plugin.jpg)
-4. Select either **File Upload**, and then choose a LPKG or WAR file, or URL to install a layout template.
+4. Select either **File Upload**, and then choose a LPKG or WAR file, or URL to install a layout template.    
 ![](install.jpg)
