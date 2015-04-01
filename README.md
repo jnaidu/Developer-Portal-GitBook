@@ -1,6 +1,6 @@
-## Developer Portal Overview
+## Covisint Developer Overview
 
-Covisint Developer Portal is a single location for everything related to developing applications on the Covisint Cloud Platform. It empowers developers to build applications and services, which can be offered over the Internet.
+Covisint Developer is a single location for everything related to developing applications on the Covisint Cloud Platform. It empowers developers to build applications and services, which can be offered over the Internet.
 
 Covisint Developer Portal offers the following features:
 * Comprehensive suite of APIs covering Identity, Portal, and Messaging allows you to customize your application according to your needs
