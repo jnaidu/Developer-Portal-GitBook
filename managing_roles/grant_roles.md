@@ -7,11 +7,12 @@ Any of the roles below:
 * Solution Center Company Administrator
 
 #### Steps:
-1. On the left panel of the **Solution Center**, click **Security**.
-2. Click the **Company Admin** tab. A list of user accounts that have been assigned the Solution Center Company Admin role will be displayed.
-2. Select a user by clicking on the user name. All the roles assigned to the user will be displayed in the context of the scope.
-3. Click **Add Roles**.
-4. Select **Solution Center Company Admin**, and click the **Submit** button. The New Assigned Roles table will display the Solution Center Company Admin role assigned to the user.
+1. Click the **Solutions** tab.
+2. On the left panel of the **Solution Center**, click **User Management**.
+3. A list of user accounts for your company will be displayed.
+4. Select a user by clicking on the edit icon next to the desired user name.
+5. Check the box next to **COMPANY ADMIN**, and click the **Save** button to assign the company admin role to the user.
+![](assign_company_admin.jpg)
 
 ### Assign the Solution Center Solution Admin role to a user account for a solution
 #### Who can perform this function?
