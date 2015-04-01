@@ -19,7 +19,7 @@
     
     
     
-    <link rel="prev" href="../managing_roles/view_granted_roles.html" />
+    <link rel="prev" href="../managing_roles/grant_roles.html" />
     
 
         
@@ -31,7 +31,7 @@
 
 
         
-    <div class="book"  data-level="4.3" data-basepath=".." data-revision="1427900988484">
+    <div class="book"  data-level="4.2" data-basepath=".." data-revision="1427902035031">
     
 
 <div class="book-summary">
@@ -446,29 +446,13 @@
         </li>
     
         
-        <li class="chapter " data-level="4.2" data-path="managing_roles/view_granted_roles.html">
-            
-                
-                    <a href="../managing_roles/view_granted_roles.html">
-                        <i class="fa fa-check"></i>
-                        
-                            <b>4.2.</b>
-                        
-                         View Assigned Roles
-                    </a>
-                
-            
-            
-        </li>
-    
-        
-        <li class="chapter active" data-level="4.3" data-path="managing_roles/revoke_roles.html">
+        <li class="chapter active" data-level="4.2" data-path="managing_roles/revoke_roles.html">
             
                 
                     <a href="../managing_roles/revoke_roles.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>4.3.</b>
+                            <b>4.2.</b>
                         
                          Remove Roles
                     </a>
@@ -571,23 +555,9 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_4058">
+                    <section class="normal" id="section-gitbook_4159">
                     
                         <h2 id="remove-roles">Remove Roles</h2>
-<h3 id="remove-the-solution-center-admin-role-from-a-user-account">Remove the Solution Center Admin role from a user account</h3>
-<h4 id="who-can-perform-this-function">Who can perform this function?</h4>
-<ul>
-<li>Solution Center Administrator</li>
-</ul>
-<h4 id="steps">Steps:</h4>
-<ol>
-<li>On the left panel of the <strong>Solution Center</strong>, click <strong>Security</strong>.</li>
-<li>Click the <strong>Solution Center Admin</strong> tab.</li>
-<li>A list of user accounts that have been granted the Solution Center Admin role will be displayed.</li>
-<li>Search the desired user by keying in the user name in the <strong>User Lookup</strong> text field.</li>
-<li>Select a user by clicking on the user name. All the roles granted to the user will be displayed.</li>
-<li>Click the <strong>Remove Role</strong> icon next to the desired user to remove the role from the user account.</li>
-</ol>
 <h3 id="remove-the-solution-center-company-admin-role-from-a-user-account-for-a-company">Remove the Solution Center Company Admin role from a user account for a company</h3>
 <h4 id="who-can-perform-this-function">Who can perform this function?</h4>
 <p>Any of the roles below:</p>
@@ -597,11 +567,13 @@
 </ul>
 <h4 id="steps">Steps:</h4>
 <ol>
-<li>On the left panel of the <strong>Solution Center</strong>, click <strong>Security</strong>.</li>
-<li>Click the <strong>Company Admin</strong> tab. A list of user accounts that have been granted the Solution Center Company Admin role will be displayed.</li>
-<li>Search the desired user by keying in the user name in the <strong>User Lookup</strong> text field.</li>
-<li>Click the <strong>Remove Role</strong> icon next to the desired user to remove the role from the user account.</li>
+<li>Click the <strong>Solutions</strong> tab.</li>
+<li>On the left panel of the <strong>Solution Center</strong>, click <strong>User Management</strong>.</li>
+<li>A list of user accounts for your company will be displayed.</li>
+<li>Select a user by clicking on the edit icon next to the desired user name.</li>
+<li>Uncheck the box next to <strong>COMPANY ADMIN</strong>, and click the <strong>Save</strong> button to assign the company admin role to the user.</li>
 </ol>
+<p><img src="assign_company_admin.jpg" alt=""></p>
 <h3 id="remove-the-solution-center-solution-admin-role-from-a-user-account-for-a-solution">Remove the Solution Center Solution Admin role from a user account for a solution</h3>
 <h3 id="who-can-perform-this-function">Who can perform this function?</h3>
 <p>Any of the roles below:</p>
@@ -611,13 +583,14 @@
 </ul>
 <h4 id="steps">Steps:</h4>
 <ol>
+<li>Click the <strong>Solutions</strong> tab.</li>
 <li>On the left panel of the <strong>Solution Center</strong>, click <strong>Solutions</strong>. A list of all the solutions that have access to the solution center will be displayed.</li>
 <li>Select your solution by clicking on the solution name.</li>
 <li>Click the <strong>Users</strong> tab. A list of users who have access to your solution will be displayed.</li>
-<li>Search the desired user by keying in the user name in the <strong>User Lookup</strong> text field.</li>
-<li>Select the user by clicking on the user name.</li>
-<li>Under the <strong>Remove Assigned Roles</strong> section, check the box next to the desired role, and click the <strong>Remove</strong> button to remove the role from the user account.</li>
+<li>Select a user by clicking on the edit icon next to the desired user name.</li>
+<li>Uncheck the box next to <strong>SOLUTION ADMIN</strong>, and click the <strong>Save</strong> button to assign the solution admin role to the user.</li>
 </ol>
+<p><img src="assign_solution_admin.jpg" alt=""></p>
 <h3 id="remove-the-solution-center-instance-admin-role-or-solution-center-instance-developer-role-from-a-user-account-for-an-instance">Remove the Solution Center Instance Admin role or Solution Center Instance Developer role from a user account for an instance</h3>
 <h3 id="who-can-perform-this-function">Who can perform this function?</h3>
 <p>Any of the roles below:</p>
@@ -628,14 +601,15 @@
 </ul>
 <h4 id="steps">Steps:</h4>
 <ol>
+<li>Click the <strong>Solutions</strong> tab.</li>
 <li>On the left panel of the <strong>Solution Center</strong>, click <strong>Solutions</strong>. A list of all the solutions for your company that have access to the solution center will be displayed.</li>
-<li>Select your solution by clicking on the solution name.</li>
-<li>Click the <strong>Instances</strong> tab. A list of all the instances for the selected solution will be displayed.</li>
+<li>Select your solution by clicking on the solution name. A list of all the instances for the selected solution will be displayed.</li>
 <li>Select an instance by clicking on the instance name to retrieve an instance.</li>
 <li>Click the <strong>Users</strong> tab. A list of all the users for your instance will be displayed.</li>
-<li>To remove the role, select or lookup the desired use.</li>
-<li>Under the <strong>Remove Assigned Roles</strong> section, check the boxes next to the desired roles, and click the <strong>Remove</strong> button.</li>
+<li>Select a user by clicking on the edit icon next to the desired user name.</li>
+<li>Uncheck the box next to <strong>INSTANCE ADMIN</strong>, and click the <strong>Save</strong> button to assign the solution admin role to the user.</li>
 </ol>
+<p><img src="assign_instance_admin.jpg" alt=""></p>
 
                     
                     </section>
@@ -646,7 +620,7 @@
         </div>
 
         
-        <a href="../managing_roles/view_granted_roles.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: View Assigned Roles"><i class="fa fa-angle-left"></i></a>
+        <a href="../managing_roles/grant_roles.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Assign Roles"><i class="fa fa-angle-left"></i></a>
         
         
     </div>
