@@ -14,7 +14,6 @@ Restart a portal runtime node on an instance
 3. Select your solution by clicking on the solution name.
 4. Click the **Instances** tab. A list of all the instances for the selected solution will be displayed.
 5. Select an instance by clicking on the instance name to retrieve an instance.
-6. Click the **Nodes** tab.
-7. You can view the status of all the portal runtime nodes under the **Active Nodes** section.
-8. Click the restart icon next to the node that you would like to restart.
+6. Click the **Monitor** tab. You can view the status of all the portal runtime nodes.
+8. Click the **Restart** button to restart the nodes.
 9. The status of the node should say **Restarting**.

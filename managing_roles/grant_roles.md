@@ -1,18 +1,4 @@
 ## Assign Roles
-some text
-
-### assign the Solution Center Admin role to a user account
-#### Who can perform this function?
-* Solution Center Administrator
-
-#### Steps:
-1. On the left panel of the **Solution Center**, click **Security**.
-2. Click the **Solution Center Admin** tab.
-3. A list of user accounts that have been assigned the Solution Center Admin role will be displayed.
-4. Search the desired user by keying in the user name in the **User Lookup** text field.
-5. Select a user by clicking on the user name. All the roles assigned to the user will be displayed in the context of the scope.
-4. Click **Add Roles**.
-5. Select **Solution Center Admin**, and click the **Submit** button. The New Assigned Roles table will display the Solution Center Admin role assigned to the user.
 
 ### Assign the Solution Center Company Admin role to a user account for a company
 #### Who can perform this function?
