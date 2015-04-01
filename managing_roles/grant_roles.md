@@ -12,6 +12,7 @@ Any of the roles below:
 3. A list of user accounts for your company will be displayed.
 4. Select a user by clicking on the edit icon next to the desired user name.
 5. Check the box next to **COMPANY ADMIN**, and click the **Save** button to assign the company admin role to the user.
+
 ![](assign_company_admin.jpg)
 
 ### Assign the Solution Center Solution Admin role to a user account for a solution
@@ -22,12 +23,14 @@ Any of the roles below:
 * Solution Center Solution Administrator
 
 #### Steps:
-1. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
-2. Select your solution by clicking on the solution name.
-3. Click the **Users** tab. A list of users who have access to your solution will be displayed.
-4. Search for the desired user, and select a user by clicking on the user name.
-4. To assign this role to a user account, check the box under section **Assign Role/s**, and click the **Add** button.
-5. The user with the new role will show up under the **All Users** table.
+1. Click the **Solutions** tab.
+2. On the left panel of the **Solution Center**, click **Solutions**. A list of all the solutions that have access to the solution center will be displayed.
+3. Select your solution by clicking on the solution name.
+4. Click the **Users** tab. A list of users who have access to your solution will be displayed.
+5. Select a user by clicking on the edit icon next to the desired user name.
+6. Check the box next to **SOLUTION ADMIN**, and click the **Save** button to assign the solution admin role to the user.
+
+![](assign_solution_admin.jpg)
 
 ### Assign the Solution Center Instance Admin role and/or Solution Center Instance Developer role to a user account for an instance
 #### Who can perform this function?
