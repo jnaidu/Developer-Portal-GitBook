@@ -48,3 +48,5 @@ Any of the roles below:
 5. Click the **Users** tab. A list of all the users for your instance will be displayed.
 6. Select a user by clicking on the edit icon next to the desired user name.
 7. Check the box next to **INSTANCE ADMIN**, and click the **Save** button to assign the solution admin role to the user.
+
+![](assign_instance_admin.jpg)
