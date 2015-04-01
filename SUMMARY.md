@@ -1,6 +1,6 @@
 # Summary
 
-* [Developer Portal Overview](README.md)
+* [Covisint Developer](README.md)
    * [Architecture](developer_portal_architecture.md)
    * [Solution Center](developer_portal_solution_center.md)
    * [Solution Center Roles](developer_portal_solution_center_roles.md)
@@ -10,13 +10,11 @@
 * [Managing Solutions](managing_solutions/README.md)
    * [View Solutions](managing_solutions/view_solutions.md)
    * [Update Solution](managing_solutions/update_solution.md)
-   * [Delete Solution](managing_solutions/delete_solution.md)
    * [View Users](managing_solutions/view_users.md)
-* [Managing Instances](managing_instances/README.md)
    * [Managing Releases](managing_solutions/managing_releases.md)
+* [Managing Instances](managing_instances/README.md)
    * [View Instances](managing_instances/view_instances.md)
    * [Edit Instance](managing_instances/edit_instance.md)
-   * [Delete Instance](managing_instances/delete_instance.md)
    * [Manage Applications](managing_instances/manage_applications.md)
    * [Manage Vanity URLs](managing_instances/manage_vanity_urls.md)
    * [Deploy Release](managing_instances/deploy_release.md)
@@ -25,6 +23,5 @@
    * [View Users](managing_instances/view_users.md)
 * [User Management](managing_roles/README.md)
    * [Assign Roles](managing_roles/grant_roles.md)
-   * [View Assigned Roles](managing_roles/view_granted_roles.md)
    * [Remove Roles](managing_roles/revoke_roles.md)
 

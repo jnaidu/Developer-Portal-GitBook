@@ -1,8 +1,8 @@
 {
     "variables": {
-        "title": "AppCloud Developer Portal",
-        "abstract": "Covisint AppCloud Developer Portal provides a platform for building, running, and managing applications. It offers developers the flexibility to configure workflows based on the customer-specific business needs by adeptly leveraging the robust set of Platform APIs and services. It also provides a new level of flexibility in building and delivering applications.",
-        "portal-page-url": "/learn/dp",
+        "title": "Covisint Developer",
+        "abstract": "Covisint Developer provides a platform for building, running, and managing applications. It not only offers developers access to Covisint Cloud Services to build robust applications by adeptly leveraging the comprehensive set of Platform APIs and services, but also provides a new level of flexibility in delivering applications.",
+        "portal-page-url": "/learn/dp"
         "portal-display-priority": "300"
     }
 }
