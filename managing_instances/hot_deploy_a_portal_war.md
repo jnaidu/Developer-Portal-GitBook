@@ -9,8 +9,9 @@ Hot Deploy a portal WAR file to an instance
 * Solution Center Instance Developer
 
 ### Steps:
-1. Log into your instance
-2. Click **Go to** and then **Control Panel**.
+1. Log into your portal instance.
+2. Click **Admin** and then **Control Panel**.
+![](hot_1.jpg)
 3. Click **Plugins Installation**.
 4. Click **Private Plugin Installer**.
 5. Click **Upload File**, and then choose a WAR file to install a layout template.
