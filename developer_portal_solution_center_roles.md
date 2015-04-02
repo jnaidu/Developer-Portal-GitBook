@@ -1,4 +1,4 @@
-## Developer Portal Solution Center Roles
+## Covisint Developer Solution Center Roles
 
 The Developer Portal Solution Center has its own set of associated roles, and when a user is granted a role, they gain access to specific features for that application.
 
