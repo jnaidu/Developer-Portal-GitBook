@@ -1,6 +1,6 @@
 # Summary
 
-* [Covisint Developer](README.md)
+* [Covisint Developer Overview](README.md)
    * [Architecture](developer_portal_architecture.md)
    * [Solution Center](developer_portal_solution_center.md)
    * [Solution Center Roles](developer_portal_solution_center_roles.md)
