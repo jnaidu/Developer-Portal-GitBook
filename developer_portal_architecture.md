@@ -31,7 +31,7 @@ Identity Services specifies three components:
 
 With Messaging services, you can integrate and aggregate complex information and data to achieve a dynamic, automated business workflow environment. The key features of the messaging services are:
 * Ability to create communication channel
-* User XSLT transformation
+* Use XSLT transformation
 * Pre-built custom processes
 
 ![](Developer_Portal_Architecture.png)
