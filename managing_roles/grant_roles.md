@@ -3,8 +3,10 @@
 ### Assign the Solution Center Company Admin role to a user account for a company
 #### Who can perform this function?
 Any of the roles below:
-* Solution Center Administrator
-* Solution Center Company Administrator
+* Solution Center Admin
+* Solution Center Company Admin
+
+#### Note: The first user of an organization to go to the Solution Center gets the Solution Center Company Admin role.
 
 #### Steps:
 1. Click the **Solutions** tab.
@@ -18,9 +20,9 @@ Any of the roles below:
 ### Assign the Solution Center Solution Admin role to a user account for a solution
 #### Who can perform this function?
 Any of the roles below:
-* Solution Center Administrator
-* Solution Center Company Administrator
-* Solution Center Solution Administrator
+* Solution Center Admin
+* Solution Center Company Admin
+* Solution Center Solution Admin
 
 #### Steps:
 1. Click the **Solutions** tab.
@@ -35,10 +37,10 @@ Any of the roles below:
 ### Assign the Solution Center Instance Admin role to a user account for an instance
 #### Who can perform this function?
 Any of the roles below:
-* Solution Center Administrator
-* Solution Center Company Administrator
-* Solution Center Solution Administrator
-* Solution Center Instance Administrator
+* Solution Center Admin
+* Solution Center Company Admin
+* Solution Center Solution Admin
+* Solution Center Instance Admin
 
 #### Steps:
 1. Click the **Solutions** tab.

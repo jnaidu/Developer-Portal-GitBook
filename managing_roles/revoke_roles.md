@@ -3,8 +3,8 @@
 ### Remove the Solution Center Company Admin role from a user account for a company
 #### Who can perform this function?
 Any of the roles below:
-* Solution Center Administrator
-* Solution Center Company Administrator
+* Solution Center Admin
+* Solution Center Company Admin
 
 #### Steps:
 1. Click the **Solutions** tab.
@@ -18,8 +18,8 @@ Any of the roles below:
 ### Remove the Solution Center Solution Admin role from a user account for a solution
 ### Who can perform this function?
 Any of the roles below:
-* Solution Center Administrator
-* Solution Center Company Administrator
+* Solution Center Admin
+* Solution Center Company Admin
 
 #### Steps:
 1. Click the **Solutions** tab.
@@ -34,9 +34,9 @@ Any of the roles below:
 ### Remove the Solution Center Instance Admin role or Solution Center Instance Developer role from a user account for an instance
 ### Who can perform this function?
 Any of the roles below:
-* Solution Center Administrator
-* Solution Center Company Administrator
-* Solution Center Instance Administrator
+* Solution Center Admin
+* Solution Center Company Admin
+* Solution Center Instance Admin
 
 #### Steps:
 1. Click the **Solutions** tab.
