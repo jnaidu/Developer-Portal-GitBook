@@ -1,6 +1,6 @@
 ## Covisint Developer Overview
 
-Covisint Developer is the Covisint Cloud Platform that provides a single location for developers to build applications and services on Covisint's highly scalable infrastructure, which can be offered over the Internet.
+Covisint Developer is the Covisint Cloud Platform that provides a single location for developers to build and run applications on Covisint's highly scalable infrastructure, which can be offered over the Internet.
 
 Covisint Developer offers the following features:
 * Comprehensive suite of APIs covering Identity, Portal, and Messaging allows you to customize your application according to your needs
