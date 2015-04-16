@@ -1,4 +1,4 @@
-## Remove Roles
+## Removing Roles
 
 ### Remove the Solution Center Company Admin role from a user account for a company
 #### Who can perform this function?

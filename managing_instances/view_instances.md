@@ -1,4 +1,4 @@
-## View Instances
+## How to View Instances?
 Retrieve a list of instances for a solution.
 
 ### Who can perform this function?

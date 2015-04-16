@@ -1,4 +1,4 @@
-## Deploy Release
+## How to Deploy a Release?
 This section depicts how to deploy the release components into an instance.
 
 ### What is a Runtime Node?

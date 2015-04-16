@@ -1,4 +1,4 @@
-## View Users
+## How to View my Instance Users?
 This sections illustrates how to retrieve a list of user accounts that have access to an instance.
 
 ### Who can perform this function?

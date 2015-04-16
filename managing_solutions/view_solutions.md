@@ -1,4 +1,4 @@
-## View Solutions
+## How to View Solutions?
 
 ### Who can perform this function?
 Any of the roles below:
@@ -10,7 +10,7 @@ Any of the roles below:
 * Solution Center User
 
 ### Note
-If you're logged in as any of the above roles but Solution Center Adminstrator role, then you'll only be able to see all the solutions for your company.
+If you're logged in as any of the above roles but Solution Center Admin role, then you'll have read-only access to all the solutions for your company.
 
 ### Steps
 1. Click the **Solutions** tab.

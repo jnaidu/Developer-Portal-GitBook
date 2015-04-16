@@ -1,4 +1,4 @@
-## Edit Instance
+## How to Edit an Instance?
 
 ### Who can perform this function?
 Any of the roles below:

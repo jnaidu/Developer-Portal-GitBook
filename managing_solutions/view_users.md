@@ -1,4 +1,4 @@
-## View Users
+## How to View Solution Users?
 This section illustrates how to retrieve a list of user accounts that have access to a solution.
 
 ### Who can perform this function?

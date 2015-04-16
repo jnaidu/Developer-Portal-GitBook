@@ -1,4 +1,4 @@
-## Assign Roles
+## Assigning Roles
 
 ### Assign the Solution Center Company Admin role to a user account for a company
 #### Who can perform this function?

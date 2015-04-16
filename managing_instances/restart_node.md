@@ -1,4 +1,4 @@
-## Restart Node
+## How to Restart a Node?
 Restart a portal runtime node on an instance
 
 ### Who can perform this function?
