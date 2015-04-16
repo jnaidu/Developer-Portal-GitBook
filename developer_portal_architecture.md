@@ -14,7 +14,7 @@ Identity Services encompasses three components:
 
 * ID Authenticator - Validates, verifies, and authenticates a user's identity
     * ID/Password
-    * 2 Factor
+    * Two-Factor
     * Risk-based Authentication
     * Policy Enforcement
 * ID Provision - Manages, and authorizes user accounts for access to appropriate digital resources.
