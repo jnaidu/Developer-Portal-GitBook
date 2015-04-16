@@ -1,6 +1,6 @@
 ## Covisint Developer Architecture
 
-The Covisint Developer is the provisioning and configuration engine of the Covisint Platform. It provides a foundation for developers to build highly scalable and robust applications.
+Covisint Developer is the provisioning and configuration engine of the Covisint Platform. It provides a foundation for developers to build highly scalable and robust applications.
 
 Application developers can use the Covisint Developer Solution Center UI to perform the following tasks:
 * Manage users, roles, and access to the Solution Center
