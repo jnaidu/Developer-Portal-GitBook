@@ -10,7 +10,7 @@ Application developers can use the Covisint Developer Solution Center UI to perf
 The UX development can be done using the Covisint Portal Framework based on Liferay. Developers can write/deploy JSR compliant portlets.
 The PaaS layer comprises two sets of services: Identity Services and Messaging Services.
 
-Identity Services specifies three components:
+Identity Services encompasses three components:
 
 * ID Authenticator - Validates, verifies, and authenticates a user's identity
     * ID/Password
@@ -24,7 +24,7 @@ Identity Services specifies three components:
     * Authorization Management
     * Role Management
     * Workflow Engine
-* ID Broker - Manage and configure federations
+* ID Broker - Manages and configures federations
     * Security Token Service
     * Federation Protocols
     * Token Translation and Attribute Mapping
