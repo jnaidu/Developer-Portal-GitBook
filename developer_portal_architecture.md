@@ -35,5 +35,4 @@ With Messaging services, you can integrate and aggregate complex information and
 * Pre-built custom processes
 
 Figure 1. Covisint Developer Architecture
-
 ![](Developer_Portal_Architecture.png)
