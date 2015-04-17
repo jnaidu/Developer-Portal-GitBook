@@ -1,4 +1,4 @@
-## How to create a Solution?
+## How to Create a Solution?
 You'll be able to create multiple solutions for a company.
 
 ### Who can perform this function?
