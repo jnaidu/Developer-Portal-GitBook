@@ -7,7 +7,7 @@ Any of the roles below:
 * Solution Center Company Admin
 
 #### Note
-The first user of an organization to go to the Solution Center gets the Solution Center Company Admin role.
+The first user of an organization to go to the Solution Center automatically gets the Solution Center Company Admin role.
 
 #### Steps:
 1. Click the **Solutions** tab.
