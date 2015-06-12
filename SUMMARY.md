@@ -24,4 +24,5 @@
 * [User Management](managing_roles/README.md)
    * [Assigning Roles](managing_roles/grant_roles.md)
    * [Removing Roles](managing_roles/revoke_roles.md)
+* [Cloud Identity Services (CIS) Branding](cloud_identity_services_cis_branding/README.md)
 
