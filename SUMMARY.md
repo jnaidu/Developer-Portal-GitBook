@@ -26,4 +26,5 @@
    * [Removing Roles](managing_roles/revoke_roles.md)
 * [Cloud Identity Services (CIS) Branding](cloud_identity_services_cis_branding/README.md)
    * [Custom Style Sheet](cloud_identity_services_cis_branding/custom_style_sheet.md)
+   * [ID Authenticator Branding](cloud_identity_services_cis_branding/id_authenticator_branding.md)
 
