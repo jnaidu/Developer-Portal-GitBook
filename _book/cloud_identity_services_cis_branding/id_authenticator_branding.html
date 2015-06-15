@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Managing Applications | Covisint Developer Overview</title>
+        <title>ID Authenticator Branding | Covisint Developer Overview</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,10 +18,10 @@
     
     
     
-    <link rel="next" href="../managing_instances/manage_vanity_urls.html" />
+    <link rel="next" href="../cloud_identity_services_cis_branding/id_provisioner_branding.html" />
     
     
-    <link rel="prev" href="../managing_instances/edit_instance.html" />
+    <link rel="prev" href="../cloud_identity_services_cis_branding/custom_style_sheet.html" />
     
 
         
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="3.3" data-basepath=".." data-revision="1434394948059">
+    <div class="book"  data-level="5.2" data-basepath=".." data-revision="1434394948059">
     
 
 <div class="book-summary">
@@ -308,7 +308,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="3.3" data-path="managing_instances/manage_applications.html">
+        <li class="chapter " data-level="3.3" data-path="managing_instances/manage_applications.html">
             
                 
                     <a href="../managing_instances/manage_applications.html">
@@ -502,7 +502,7 @@
         </li>
     
         
-        <li class="chapter " data-level="5.2" data-path="cloud_identity_services_cis_branding/id_authenticator_branding.html">
+        <li class="chapter active" data-level="5.2" data-path="cloud_identity_services_cis_branding/id_authenticator_branding.html">
             
                 
                     <a href="../cloud_identity_services_cis_branding/id_authenticator_branding.html">
@@ -627,31 +627,30 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_114">
+                    <section class="normal" id="section-gitbook_103">
                     
-                        <h2 id="managing-applications">Managing Applications</h2>
-<p>The application management screen allows you to register your external application, issues client ID and secret, which is required to access the Platform APIs, and provides a space to manage all the applications you register. This section walks you through the process of creating one.</p>
-<h3 id="who-can-perform-this-function">Who can perform this function?</h3>
-<p>Any of the roles below:</p>
+                        <h1 id="id-authenticator-branding">ID Authenticator Branding</h1>
+<p>CIS UI is split into three basic sections. A header at the top, the login form
+in the middle, and a footer at the bottom.</p>
+<p>All customizations are accomplished by adding CSS to css_override.css.</p>
+<p><img src="idauth-1.jpg" alt=""></p>
+<h2 id="header">Header</h2>
 <ul>
-<li>Solution Center Administrator</li>
-<li>Solution Center Company Administrator</li>
-<li>Solution Center Solution Administrator</li>
-<li>Solution Center Instance Administrator</li>
+<li>The header consists of an logo/image and tagline.</li>
+<li>To change the logo, add the following to css_override.css with the correct path to your logo in the Portal CMS. The file can be png, jpg, or gif. Also be sure to specify the width and height of your image.</li>
 </ul>
-<h3 id="create-an-external-application-for-an-instance">Create an external application for an instance</h3>
-<h4 id="steps">Steps:</h4>
-<ol>
-<li>Click the <strong>Solutions</strong> tab.</li>
-<li>On the left panel of the <strong>Solution Center</strong>, click <strong>Solutions</strong>. A list of all the solutions for your company that have access to the solution center will be displayed.</li>
-<li>Select your solution by clicking on the solution name.</li>
-<li>Click the <strong>Instances</strong> tab. A list of all the instances for the selected solution will be displayed.</li>
-<li>Select an instance by clicking on the instance name to retrieve an instance.</li>
-<li>Click <strong>New Application</strong>.</li>
-<li>Enter the application name and description, and click the save icon.</li>
-<li>The application ID, Client ID, and Client secret will be auto-generated for your application. Click the <strong>Show Client Secret</strong> button to unhide the Client Secret.
-<img src="manage_app.jpg" alt=""></li>
-</ol>
+<p>css_override.css
+<img src="idauth-2.jpg" alt=""></p>
+<p>The tagline is a label.</p>
+<h2 id="login-form">Login Form</h2>
+<p>Several elements in the login form can be customized. These include text color for both active and inactive labels, hyperlinks, button text and background color.
+<img src="idauth-3.jpg" alt=""></p>
+<p>css_override.css
+<img src="idauth-4.jpg" alt=""></p>
+<h2 id="footer">Footer</h2>
+<p>Static text and hyperlinks in the footer will inherit styles set for the login form. If needed, these can by styled independently.</p>
+<p>css_override.css
+<img src="idauth-5.jpg" alt=""></p>
 
                     
                     </section>
@@ -662,10 +661,10 @@
         </div>
 
         
-        <a href="../managing_instances/edit_instance.html" class="navigation navigation-prev " aria-label="Previous page: How to Edit an Instance?"><i class="fa fa-angle-left"></i></a>
+        <a href="../cloud_identity_services_cis_branding/custom_style_sheet.html" class="navigation navigation-prev " aria-label="Previous page: Custom Style Sheet"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../managing_instances/manage_vanity_urls.html" class="navigation navigation-next " aria-label="Next page: Managing Vanity URLs"><i class="fa fa-angle-right"></i></a>
+        <a href="../cloud_identity_services_cis_branding/id_provisioner_branding.html" class="navigation navigation-next " aria-label="Next page: ID Provisioner Branding"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
