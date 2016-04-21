@@ -27,7 +27,7 @@ repository:
   skip-ssl: true #optional default - false
   authentication:
     username: admin
-    password: start123
+    password: welcome
 webapps: #specify all wars as a sequence of GAV Coordinates this would go into tomcat\webapps folder
   - g: com.yourGroup
     a: your-Artifact
